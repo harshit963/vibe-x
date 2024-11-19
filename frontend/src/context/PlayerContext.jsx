@@ -10,7 +10,7 @@ const PlayerContextProvider = (props) => {
     const seekBg = useRef();
     const seekBar = useRef();
     // const url = 'http://localhost:8000'
-    const url = 'https://vibex-54tj.onrender.com'
+    const url = 'https://vibe-x-backend.onrender.com'
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData,setAlbumData] = useState([]);
